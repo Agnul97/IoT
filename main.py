@@ -15,7 +15,7 @@ def producer():
     data = pd.read_csv('http://iot.ee.surrey.ac.uk:8080/datasets/traffic/traffic_feb_june/trafficData158324.csv')
     print(data)
     exit(1)
-    print("mod2")
+    print("modPortatile")
     # Start your result manager and workers before you start your producers
     for num in range(20000):
         work_message = { 'num' : num }
